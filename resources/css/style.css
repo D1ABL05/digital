@@ -2,10 +2,42 @@ html {
 
 }
 
+span {
+  color: red;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: gray;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
 body {
 
 }
 
-footer {
+body ul {
+  float: right;
+  padding-top: 2rem;
+  padding-right: 2rem;
+}
 
+footer {
+  display: flex;
+  clear: both;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: gray;
+}
+
+footer h4 {
+  font-size: 2rem;
 }
